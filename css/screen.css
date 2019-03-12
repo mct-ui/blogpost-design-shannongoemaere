@@ -53,6 +53,8 @@ html {
     font-family: "Droid Serif", Georgia, serif;
     padding: 48px 24px 24px;
     color: #5C6366;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -90,6 +92,14 @@ img {
     Default markup for typographic elements
 */
 
+h1,
+h2,
+h3 {
+    color: #17181A;
+    font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
+
+}
+
 h1 {
     font-size: 36px;
     line-height: 40px;
@@ -109,13 +119,6 @@ h3 {
     margin: 0 0 24px;
 }
 
-h1,
-h2,
-h3 {
-    color: #17181A;
-    font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
-
-}
 
 h4,
 h5,
