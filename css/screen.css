@@ -54,7 +54,7 @@ html {
     padding: 48px 24px 24px;
     color: #5C6366;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-s4moothing: grayscale;
 }
 
 body {
@@ -131,6 +131,37 @@ h6 {
     font-size: 16px;
     line-height: 24px;
     margin: 0 0 24px;
+}
+
+/*
+    Components: Author
+*/
+
+.c-author {
+    display: flex;
+    align-items: center;
+}
+
+.c-author__image {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right:16px;
+}
+
+.c-author__name,
+.c-author__meta{
+    margin-bottom: 0;
+}
+
+.c-author__meta{
+    font-size: 14px;
+    font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+
+.c-author__name{
+    font-size: 16px;
+    line-height: 16px;
 }
 
 p,
